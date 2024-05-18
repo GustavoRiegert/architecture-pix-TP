@@ -53,6 +53,10 @@ O Pix é um sistema de pagamentos instantâneos que permite transferências de d
 - **Amazon Kinesis:** Processamento de dados em tempo real.
 - **Amazon DynamoDB:** Banco de dados NoSQL altamente escalável.
 
+## Arquitetura do Sistema Pix
+
+![Arquitetura do Sistema Pix](arqPix.jpg)
+
 ### Referências
 
 - Livro Engenharia de Software Moderna: [Capítulo 7 - Arquitetura de Software](https://engsoftmoderna.info/cap7.html#introdu%C3%A7%C3%A3o)
