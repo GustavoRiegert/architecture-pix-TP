@@ -1,8 +1,8 @@
-# Análise da Arquitetura do Sistema Pix
+# Análise da Arquitetura do Sistema Pix Itau
 
-## Introdução
-
-Este projeto tem como objetivo analisar a arquitetura do sistema Pix, um sistema de pagamentos instantâneos criado pelo Banco Central do Brasil. O Pix é um exemplo de arquitetura de software moderna que envolve decisões importantes de projeto e utiliza uma infraestrutura altamente escalável e segura na nuvem AWS.
+# Introdução
+  
+Este projeto tem como objetivo analisar a arquitetura do sistema Pix implementada pelo Itau, um sistema de pagamentos instantâneos criado pelo Banco Central do Brasil. O Pix é um exemplo de arquitetura de software moderna que envolve decisões importantes de projeto e utiliza uma infraestrutura altamente escalável e segura
 
 ## Integrantes do Grupo
 
