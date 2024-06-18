@@ -30,6 +30,15 @@ AWS Lambda é uma plataforma de computação serverless que permite executar có
 - Idiomas Suportados: Node.js, Python, Java, Go, entre outros.
 - Desempenho e Escalabilidade: Criação de instâncias de forma horizontal para lidar com a carga, conhecido como concorrência.
 
+### Exemplo da Função Lambda
+
+![Exemplo da Função Lambda em funcionamento](https://d2908q01vomqb2.cloudfront.net/d435a6cdd786300dff204ee7c2ef942d3e9034e2/2023/05/31/comofornecercredenciaisdebanco-1.png)
+
+1. Os clientes chamam a API RESTful hospedada no AWS API Gateway
+2. O API Gateway executa a função Lambda
+3. A função Lambda recupera os segredos do banco de dados usando a API Secrets Manager
+4. A função Lambda se conecta ao banco de dados do RDS usando segredos do banco de dados do Secrets Manager e retorna os resultados da consulta
+
 ### Versionamento e Alias (Versioning and Alias)
 
 - Versionamento: Funções podem ter múltiplas versões, permitindo gerenciamento de mudanças.
